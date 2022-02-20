@@ -1,0 +1,15 @@
+class Test
+{
+public static void main(String[]args)
+{
+int a=10;first term = 0;second term = 1,i;
+System.out.println("Fibonacci series are:"+a);
+for(int i=1;i<=a;i++)
+{
+System.out.println(","+first term);
+int nextTerm=first term+second term;
+first term=second term;
+second term=next term;
+}
+}
+}
